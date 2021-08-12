@@ -1,0 +1,28 @@
+{
+    "name": "{{ site.name }}",
+    "short_name": "{{ site.name }}",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color" : "#fff" ,
+    "description": "{{ site.description }}",
+    "theme_color": "#ffffff",
+    "icons": [
+        {
+          "src": "/assets/img/touch/android-chrome-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/assets/img/touch/android-chrome-512x512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        },
+        {
+          "src": "/assets/img/touch/maskable_icon.png",
+          "sizes": "196x196",
+          "type": "image/png",
+          "purpose": "any maskable"
+        }
+    ],
+    "prefer_related_applications": false
+  }

@@ -1,0 +1,46 @@
+
+<section id="contribution" class="hero">
+  <div class="container-sm">
+    <p class="h4"><span class="subtitle point-before">join vinv-group</span></p>
+    <h1>Become a Contributor</h1>
+    <p>If you want to join the <span class="heighlight"><b>vinv-group</b></span>, discussions, decisions, get technical support and strengthen the software with your knowledge and experiences.</p>
+    <p>Join our <a class="btn btn-outline-dark" href="https://vinv-space.slack.com/" rel="noreferrer" target="_blank"><i class="bi-slack" role="img" aria-label="Slack"></i>  Slack Workspace</a></p>
+    <br/>
+    <p><b>Organizations</b> can support the technical infrastructure by <a class="heighlight" href="mailto:support@vinv.io?subject=Becoming%20a%20Sponsor"><b>Becoming a Sponsor</b></a> and have your company logo placed on this website.</p>
+  </div>
+</section>
+<section>
+  <div class="container vinv-content">
+    <!--<p class="h4"><span class="subtitle point-before">Thanks to</span></p>-->
+    <h1>Contributors</h1>
+    <p>...who are giving themselves and their free time to contribute to <span class="heighlight">vinv</span>.</p>
+    <div id="contributors-list"></div>
+  </div>
+</section>
+<script type="text/javascript">
+  var listWrapper = document.getElementById('contributors-list');
+  var drawContributorsList = function(data){
+    console.log(data);
+    for(var i = 0; i< data.length; i++){
+      var element = document.createElement('A');
+      element.classList.add('m-1');
+      element.setAttribute('href', data[i].html_url);
+      element.setAttribute('rel', "noreferrer");
+      element.setAttribute('target', "_blank");
+
+      var avatar = document.createElement('IMG');
+      avatar.classList.add('rounded-circle', 'vinv-contributors-avatar');
+      avatar.setAttribute('src', data[i].avatar_url);
+      avatar.setAttribute('data-bs-toggle', 'tooltip');
+      avatar.setAttribute('title', data[i].login);
+      avatar.setAttribute('data-bs-placement', 'right');
+      
+      element.appendChild(avatar);
+      listWrapper.appendChild(element);
+    }
+    
+  }
+  fetch('https://api.github.com/orgs/vinv-group/members')
+    .then(response => response.json())
+    .then(data => drawContributorsList(data));
+</script>

@@ -1,0 +1,22 @@
+{
+  "name": "vinv.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinv-group/vinv-group.github.io.git"
+  },
+  "author": "Gerrit Balindt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vinv-group/vinv-group.github.io/issues"
+  },
+  "homepage": "https://github.com/vinv-group/vinv-group.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.2"
+  }
+}

@@ -1,0 +1,34 @@
+title: vinv.io 
+email: support@vinv.io
+description: >- # this means to ignore newlines until "baseurl:"
+  Lightweight data standard and structure for single-tree based forest management, visualization & analytics
+
+
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://vinv.io" # the base hostname & protocol for your site, e.g. http://example.com
+name: "vinv Virtual Inventory"
+lang: "en"
+tags: "forestry, inventory, vinv, standard, exchange"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-remote-theme
+  - jekyll-optional-front-matter
+  - jekyll-get-json
+
+defaults:
+  - scope:
+      path: "documentation" # an empty string here means all files in the project
+    values:
+      layout: "documentation"
+
+jekyll_get_json:
+  - data: documentation
+    json: 'https://raw.githubusercontent.com/vinv-group/vinv-jekyll-theme/main/_data/documentation.json'
+
+sass:
+  sass_dir: _sass 
+  style: compressed
+
+remote_theme: vinv-group/vinv-jekyll-theme
