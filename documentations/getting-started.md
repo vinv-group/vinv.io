@@ -19,16 +19,18 @@ The <span class="heighlight">vinv</span> specification defines the **syntax** an
 - that data are **realistic** and **valid**.
 - that the data is available in the expected form and can therefore be **processed automatically**.
 
-<!--<p class="h5 mt-5">
+<p class="h5 mt-5">
   <span class="subtitle point-before hp">Precision Forestry</span>
 </p>
 <h2 class="mt-0">Resolution of Data</h2>
 
-Forest inventory data presented with <span class="heighlight">vinv</span> are formed by the largest possible intersection of common inventory methods. Thereby, the storage of aggregations is deliberately avoided.
+vinv supports inventory data at the **individual tree level** by default. Each tree is defined by various individual attributes like location, tree height, DBH... Thereby, the storage of aggregated data is deliberately avoided.
 
-Consequently, a `.vinv` file consists of a list of individual tree data defined by various tree attributes.-->
+vinv data structure is developed to support a large intersection of common inventory methods. So attributes can be real meassurements from field data and processed laser scannings or simulated and predicted values from algorithms and machine learning.
 
-<p class="h5 mt-5">
+
+
+<!--<p class="h5 mt-5">
   <span class="subtitle point-before hp">Core</span>
 </p>
 <h2 class="mt-0">Feature</h2>
@@ -40,7 +42,7 @@ This **open source** schema is provided by the <a href="/group">vinv group</a> a
 <a class="btn btn-outline-dark" href="https://github.com/vinv-group/vinv-schema" target="_blank" rel="noreferrer">
         <i class="bi-github" role="img" aria-label="GitHub"></i>&nbsp;
         vinv-schema & Documentation
-</a>
+</a>-->
 
 {% include next-btn.html 
     title="Format & Validation"
