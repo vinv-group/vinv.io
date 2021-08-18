@@ -1,19 +1,15 @@
 {
     "toc": [
         {
-            "title": "Getting started",
+            "title": "Documentation",
             "subfolderitems": [
                 {
-                    "page": "Basics",
+                    "page": "Getting started",
                     "url": "./getting-started.html"
                 },
                 {
-                    "page": ".vinv Format",
+                    "page": "Format & Validation",
                     "url": "./format.html"
-                },
-                {
-                    "page": "Validation",
-                    "url": "./validation.html"
                 }
             ]
         }
