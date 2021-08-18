@@ -1,5 +1,10 @@
 ---
 layout: documentation
+language: "en"
+title: "Format & Validation | Documentation"
+type: "website"
+image: ""
+description: "vinv compliant inventory data is transferred in the `.vinv` data format."
 ---
 
 <p class="h4">
@@ -73,6 +78,7 @@ Virtually all modern programming languages support the JSON structure out of the
     ]
 }
 ```
+
 <small>To keep the file size as small as possible, recurring objects like "inventory data" are represented as tuples.</small>
 
 <small>Get familiar with [tuples and JSON-Schema](https://json-schema.org/understanding-json-schema/reference/array.html#tuple-validation).</small>

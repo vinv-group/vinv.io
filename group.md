@@ -1,15 +1,20 @@
 ---
 layout: page
+language: "en"
+title: "vinv Group"
+type: "website"
+image: ""
+description: "As a collaborative project, the vinv group aims to create an technical/forestry community where participants from industry and science can easily contribute to and adopt the project's technology."
 ---
+
 <div class="container">
 
+  <p class="h4">
+    <span class="subtitle point-before">a collaborative</span>
+  </p>
+  <h1>Group</h1>
 
-<p class="h4">
-  <span class="subtitle point-before">a collaborative</span>
-</p>
-<h1>Group</h1>
-
-As a collaborative project, the vinv group aims to create an technical/forestry community where participants from industry and science can easily contribute to and adopt the project's technology.
+  As a collaborative project, the vinv group aims to create an technical/forestry community where participants from industry and science can easily contribute to and adopt the project's technology.
 
 </div>
 
