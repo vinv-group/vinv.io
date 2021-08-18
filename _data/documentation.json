@@ -1,0 +1,21 @@
+{
+    "toc": [
+        {
+            "title": "Getting started",
+            "subfolderitems": [
+                {
+                    "page": "Basics",
+                    "url": "./getting-started.html"
+                },
+                {
+                    "page": ".vinv Format",
+                    "url": "./format.html"
+                },
+                {
+                    "page": "Validation",
+                    "url": "./validation.html"
+                }
+            ]
+        }
+    ]
+}

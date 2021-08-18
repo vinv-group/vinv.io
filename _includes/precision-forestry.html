@@ -1,0 +1,34 @@
+<div id="precision-overlay" class="shadow card position-absolute bottom-0 end-0">
+    <div class="card-body">
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td><small>ID</small></td>
+                    <td>4e5d2127</td>
+                </tr>
+                <tr>
+                    <td><small>Species</small></td>
+                    <td>Picea</td>
+                </tr>
+                <tr>
+                    <td><small>DBH</small></td>
+                    <td>67 mm</td>
+                </tr>
+                <tr>
+                    <td><small>Height</small></td>
+                    <td>24.5 m</td>
+                </tr>
+            </tbody>
+        </table>
+      </div>
+</div>
+<script type="text/javascript">
+
+    var overlay = document.getElementById('precision-overlay');
+    var precisionHero = document.getElementsByClassName('vinv-precision-forestry')[0];
+    precisionHero.getElementsByClassName('col-lg-6')[0].classList.add('position-relative');
+
+    var precitionImg = precisionHero.getElementsByClassName('img-fluid')[0];
+    precitionImg.after(overlay);
+
+</script>
