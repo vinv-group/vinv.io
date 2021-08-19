@@ -8,6 +8,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://vinv.io" # the base hostname & protocol for your site, e.g. http://example.com
 name: "Virtual Inventory"
 lang: "en"
+ogImage: "/assets/img/og/open_graph_image.jpg"
 tags: "forestry, inventory, vinv, standard, exchange"
 
 plugins:

@@ -2,7 +2,7 @@
 
 layout: documentation
 language: "en"
-title: "Getting started with vinv  | Documentation"
+title: "Getting started with vinv"
 type: "website"
 image: ""
 description: "A schema is provided to ensure that inventory data conforms to the vinv specification."
