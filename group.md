@@ -53,7 +53,7 @@ As contributors, maintainers, and participants in this project, we want to foste
   <h2>Join vinv group</h2>
   Participate with your knowledge and experience, take part in discussions and the development process.
   <p class="text-center">
-    <a class="btn btn-outline-dark" href="https://vinv-space.slack.com/" rel="noreferrer" target="_blank"><i class="bi-slack" role="img" aria-label="Slack"></i>  Slack Workspace</a>
+    <a class="btn btn-outline-dark" href="https://join.slack.com/t/vinv-space/shared_invite/zt-somm549g-OuITyP9Yuk3o2cadnUPxhA" rel="noreferrer" target="_blank"><i class="bi-slack" role="img" aria-label="Slack"></i>  Slack Workspace</a>
   </p>
   <p class="text-center">
     or
