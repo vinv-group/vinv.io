@@ -1,9 +1,6 @@
 ---
 layout: documentation
-language: "en"
 title: "Format & Validation"
-type: "website"
-image: ""
 description: "vinv compliant inventory data is transferred in the `.vinv` data format."
 ---
 
