@@ -1,6 +1,7 @@
 ---
 layout: documentation
 title: "Format & Validation"
+image: "/assets/img/og/format_validation_open_graph_image.jpg"
 description: "vinv compliant inventory data is transferred in the `.vinv` data format."
 ---
 

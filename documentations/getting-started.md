@@ -2,6 +2,7 @@
 
 layout: documentation
 title: "Getting started with vinv"
+image: "/assets/img/og/getting_started_open_graph_image.jpg"
 description: "A schema is provided to ensure that inventory data conforms to the vinv specification."
 
 ---

@@ -3,7 +3,7 @@ layout: page
 language: "en"
 title: "vinv Group"
 type: "website"
-image: ""
+image: "/assets/img/og/group_open_graph_image.jpg"
 description: "As a collaborative project, the vinv group aims to create an technical/forestry community where participants from industry and science can easily contribute to and adopt the project's technology."
 ---
 
